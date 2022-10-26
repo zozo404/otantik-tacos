@@ -1,14 +1,14 @@
-# Site-cv-nuxt2
-Welcome to my new CV site 👋
+# otantik-tacos
+Welcome to my new project 👋
 
-Access: [zozoy.fr](https://zozoy.fr)
+<!-- Access: [zozoy.fr](https://zozoy.fr) -->
 ## Installation
 
 ```bash
 # clone the repo
-$ git clone https://github.com/zozo404/site-cv-nuxt2.git
+$ git clone https://github.com/zozo404/otantik-tacos.git
 
-$ cd site-cv-nuxt2
+$ cd otantik-tacos
 
 # install dependencies
 $ yarn install
