@@ -1,7 +1,17 @@
 module.exports = {
   darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        orange:{
+          1000:'#E27406'
+        },
+        gray:{
+          25: '#D9D8D8',
+          1000: '#292929'
+        }
+      }
+    }
   },
   variants: {
     extend: {}

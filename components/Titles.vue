@@ -1,5 +1,5 @@
 <template>
-  <div :id="id" class="bg-zinc-900 flex flex-col items-center mt-7">
+  <div :id="id" class="bg-orange-1000 flex flex-col items-center mt-7">
     <h2 class="sm:text-4xl lg:text-5xl text-3xl font-light text-white text-center px-4 pt-6 ">
       <span class="">{{ title }}</span>
     </h2>
