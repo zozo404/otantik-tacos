@@ -86,28 +86,16 @@ export default {
           lien: '/'
         },
         {
-          texte: 'Présentation',
-          lien: '/#presentation'
+          texte: 'Notre Carte',
+          lien: '/#carte'
         },
         {
-          texte: 'Compétences',
-          lien: '/#competences'
+          texte: 'Retrouvez-nous',
+          lien: '/#retrouvez'
         },
         {
-          texte: 'Parcours',
-          lien: '/#parcours'
-        },
-        {
-          texte: 'Expériences',
-          lien: '/#experiences'
-        },
-        {
-          texte: 'Portfolio',
-          lien: '/#portfolio'
-        },
-        {
-          texte: 'Contact',
-          lien: '/#contact'
+          texte: 'Nos Horaires',
+          lien: '/#horaires'
         }
       ]
     }
