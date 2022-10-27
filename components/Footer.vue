@@ -7,7 +7,7 @@
           v-for="item in navigation.social"
           :key="item.name"
           :href="item.href"
-          class="text-gray-400 hover:text-gray-500"
+          class="text-gray-25 hover:text-gray-500"
           target="_blank"
           rel="noopener"
         >
@@ -15,7 +15,7 @@
           <i :class="item.icon" class="h-6 w-6 text-gray-50" />
         </a>
       </div>
-      <p class="mt-8 text-center text-base text-gray-400">
+      <p class="mt-8 text-center text-base text-gray-25">
         &copy; 2022 zozoy, Inc. All rights reserved.
       </p>
     </div>

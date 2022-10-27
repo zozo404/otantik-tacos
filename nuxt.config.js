@@ -62,13 +62,13 @@ export default {
   build: {
   },
   sanity: {
-    projectId: '5xe4ems3',
+    projectId: 'ygecrkdj',
     minimal: true
   },
   tailwindcss: {},
   image: {
     sanity: {
-      projectId: '5xe4ems3'
+      projectId: 'ygecrkdj'
     }
   }
 }

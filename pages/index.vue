@@ -1,11 +1,8 @@
 <template>
   <div>
-    <Titles :id="'presentation'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Notre Carte" />
-    <Titles :id="'competences'" subtitle="Compétences" class="scroll-mt-60 lg:scroll-mt-40" />
-    <Titles :id="'parcours'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Parcours" />
-    <Titles :id="'experiences'" subtitle="Expériences" class="scroll-mt-60 lg:scroll-mt-40" />
-    <Titles :id="'portfolio'" subtitle="Portfolio" class="scroll-mt-60 lg:scroll-mt-40" />
-    <Titles :id="'contact'" subtitle="Contact" class="scroll-mt-60 lg:scroll-mt-40" />
+    <Titles :id="'carte'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Notre Carte" />
+    <Titles :id="'retrouvez'" subtitle="Retrouvez-nous" class="scroll-mt-60 lg:scroll-mt-40" />
+    <Titles :id="'horaires'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Nos horaires" />
   </div>
 </template>
 
