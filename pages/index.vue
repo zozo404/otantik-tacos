@@ -2,8 +2,8 @@
   <div>
     <PresentationTacos class="pt-6" />
     <NotreCarte />
-    <Titles :id="'retrouvez'" subtitle="Retrouvez-nous" class="scroll-mt-60 lg:scroll-mt-40" />
-    <Titles :id="'horaires'" class="scroll-mt-60 lg:scroll-mt-40" subtitle="Nos horaires" />
+    <RetrouvezNous />
+    <NosHoraires />
   </div>
 </template>
 
