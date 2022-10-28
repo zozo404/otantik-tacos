@@ -16,6 +16,9 @@
               {{ horaire.horaires }}
             </span>
           </li>
+          <p>
+            Numéro: <a href="tel:0468612529" class="font-bold">04 68 61 25 29 </a>
+          </p>
           <!-- fin de la boucle -->
         </ul>
         <i>

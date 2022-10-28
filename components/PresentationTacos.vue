@@ -4,7 +4,7 @@
       provider="sanity"
       :src="Door.imageId.asset._ref"
       :alt="Door.imageId.alt"
-      class="h-full filter contrast-25"
+      class="h-full filter brightness-tacos"
       sizes="xs:100vw"
     />
     <Titles :id="'door'" class="scroll-mt-60 lg:scroll-mt-40 absolute top-44 italic font-medium text-orange-1000" subtitle="Fast food de Tacos/ Burgers/ Américains/ Salades" />
