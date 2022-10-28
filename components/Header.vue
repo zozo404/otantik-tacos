@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-orange-1000 lg:h-40 w-full z-20 sticky top-0">
+  <header class="bg-orange-1000 h-24 w-full z-20 sticky top-0">
     <nav
       class="lg:max-h-40 max-h-20 w-full py-4 lg:py-6 grid grid-cols-2 grid-rows-1 lg:grid-cols-2 items-center justify-between lg:border-none bg-orange-1000"
       aria-label="Top"

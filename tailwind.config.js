@@ -3,13 +3,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        orange:{
-          1000:'#E27406'
+        orange: {
+          1000: '#E27406'
         },
-        gray:{
+        gray: {
           25: '#D9D8D8',
           1000: '#292929'
         }
+      },
+      contrast: {
+        25: '0.45'
+      },
+      width: {
+        95: '95%'
       }
     }
   },

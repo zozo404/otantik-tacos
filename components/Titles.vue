@@ -1,10 +1,7 @@
 <template>
-  <div :id="id" class="bg-orange-1000 flex flex-col items-center mt-7">
-    <h2 class="sm:text-4xl lg:text-5xl text-3xl font-light text-white text-center px-4 pt-6 ">
-      <span class="">{{ title }}</span>
-    </h2>
-    <div v-if="subtitle" class="flex w-3/4 md:w-1/3 justify-center items-center py-8 border-2 border-orange-400 rounded-full mb-4">
-      <p class="lg:w-1/2 sm:text-4xl lg:text-4xl text-3xl font-light text-white text-center">
+  <div :id="id" class="bg-transparent flex flex-col items-center mt-7">
+    <div v-if="subtitle" class="flex w-3/4 md:w-1/3 justify-center items-center pb-8 bg-transparent rounded-full mb-4">
+      <p class="lg:w-1/2 sm:text-4xl lg:text-4xl text-3xl text-center">
         {{ subtitle }}
       </p>
     </div>
@@ -15,10 +12,6 @@
 export default {
   name: 'TitlesApp',
   props: {
-    title: {
-      type: String,
-      default: ''
-    },
     subtitle: {
       type: String,
       default: ''
