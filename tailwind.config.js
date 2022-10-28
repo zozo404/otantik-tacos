@@ -14,6 +14,9 @@ module.exports = {
       contrast: {
         25: '0.45'
       },
+      brightness: {
+        tacos: '0.4'
+      },
       width: {
         95: '95%'
       }
