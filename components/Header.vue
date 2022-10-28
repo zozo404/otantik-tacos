@@ -1,18 +1,18 @@
 <template>
-  <header class="bg-zinc-900 lg:h-40 w-full z-20 sticky top-0">
+  <header class="bg-orange-1000 h-24 w-full z-20 sticky top-0">
     <nav
-      class="lg:max-h-40 max-h-20 w-full py-4 lg:py-6 grid grid-cols-2 grid-rows-1 lg:grid-cols-3 items-center justify-between lg:border-none bg-zinc-900"
+      class="lg:max-h-40 max-h-20 w-full py-4 lg:py-6 grid grid-cols-2 grid-rows-1 lg:grid-cols-2 items-center justify-between lg:border-none bg-orange-1000"
       aria-label="Top"
     >
       <!-- logo -->
-      <nuxt-link to="/" class="flex justify-center lg:col-span-1 h-full">
+      <nuxt-link to="/" class="flex justify-center lg:col-span-1 h-full text-gray-25">
         <span class="sr-only">Logo</span>
         <!-- mettre img -->
         <nuxt-img
           provider="sanity"
           :src="Logo.imageId.asset._ref"
           alt="logo"
-          class="h-full"
+          class="h-20"
           sizes="xs:100vw"
         />
       </nuxt-link>
@@ -37,7 +37,7 @@
       <!-- fin nav fermée -->
     </nav>
     <!-- nav ouverte -->
-    <nav :class="{hidden:isActive}" class="lg:hidden w-screen absolute top-0 h-screen z-40 bg-zinc-900 grid grid-cols-2 grid-rows-6 ">
+    <nav :class="{hidden:isActive}" class="lg:hidden w-screen absolute top-0 h-screen z-40 bg-orange-1000 grid grid-cols-2 grid-rows-6 ">
       <div class="grid grid-cols-2 grid-rows-1 col-span-2  my-4 h-12 justify-items-center w-full">
         <!-- logo -->
         <nuxt-link to="/" class="flex justify-center lg:col-span-1 h-full ">
@@ -47,7 +47,7 @@
             provider="sanity"
             :src="Logo.imageId.asset._ref"
             alt="logo"
-            class="h-full"
+            class="h-20"
             sizes="xs:100vw"
           />
         </nuxt-link>
@@ -86,28 +86,16 @@ export default {
           lien: '/'
         },
         {
-          texte: 'Présentation',
-          lien: '/#presentation'
+          texte: 'Notre Carte',
+          lien: '/#carte'
         },
         {
-          texte: 'Compétences',
-          lien: '/#competences'
+          texte: 'Retrouvez-nous',
+          lien: '/#retrouvez'
         },
         {
-          texte: 'Parcours',
-          lien: '/#parcours'
-        },
-        {
-          texte: 'Expériences',
-          lien: '/#experiences'
-        },
-        {
-          texte: 'Portfolio',
-          lien: '/#portfolio'
-        },
-        {
-          texte: 'Contact',
-          lien: '/#contact'
+          texte: 'Nos Horaires',
+          lien: '/#horaires'
         }
       ]
     }

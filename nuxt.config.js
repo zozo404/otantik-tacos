@@ -4,12 +4,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'zozoy',
+    title: 'otantik-tacos',
     htmlAttrs: {
       lang: 'fr'
     },
     bodyAttrs: {
-      class: 'bg-zinc-900 text-gray-50'
+      class: 'bg-orange-1000 text-gray-25'
     },
     meta: [
       { charset: 'utf-8' },
@@ -62,13 +62,13 @@ export default {
   build: {
   },
   sanity: {
-    projectId: '5xe4ems3',
+    projectId: 'ygecrkdj',
     minimal: true
   },
   tailwindcss: {},
   image: {
     sanity: {
-      projectId: '5xe4ems3'
+      projectId: 'ygecrkdj'
     }
   }
 }
