@@ -19,6 +19,10 @@ module.exports = {
       },
       width: {
         95: '95%'
+      },
+      fontFamily: {
+        fuzzy: "'Fuzzy Bubbles', cursive",
+        shadows: "'Shadows Into Light Two', cursive"
       }
     }
   },
