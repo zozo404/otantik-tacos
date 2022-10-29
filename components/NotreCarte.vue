@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     <BordureTop />
     <div class="bg-gray-1000 flex flex-col items-center pb-8">
-      <Titles :id="'carte'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full font-shadows" subtitle="Notre carte" />
+      <Titles :id="'carte'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full" subtitle="Notre carte" />
       <nuxt-img
         provider="sanity"
         :src="Carte.imageId.asset._ref"

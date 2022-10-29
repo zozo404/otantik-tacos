@@ -1,6 +1,6 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <footer id="footer" class="bg-orange-1000">
+  <footer id="footer" class="bg-orange-1000 font-shadows">
     <div class="max-w-7xl mx-auto pt-4 px-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center">
       <!-- si bug visuel, alors modifier la height de l'image aux alentours de 40% (mobile only) -->
       <nuxt-img

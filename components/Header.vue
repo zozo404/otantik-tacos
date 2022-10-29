@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-orange-1000 h-24 w-full z-20 sticky top-0">
+  <header class="bg-orange-1000 h-24 w-full z-20 sticky top-0 font-shadows">
     <nav
       class="lg:max-h-40 max-h-20 w-full py-4 lg:py-6 grid grid-cols-2 grid-rows-1 lg:grid-cols-2 items-center justify-between lg:border-none bg-orange-1000"
       aria-label="Top"
@@ -27,7 +27,7 @@
           <a
             key="Index"
             :href="lien.lien"
-            class="text-base lg:text-xl 2xl:text-2xl font-medium text-white hover:text-indigo-50"
+            class="text-base lg:text-xl 2xl:text-2xl font-medium text-gray-25 hover:text-indigo-50"
             @click="toggle"
           >
             {{ lien.texte }}
@@ -61,7 +61,7 @@
         <nuxt-link
           key="Index"
           :to="lien.lien"
-          class="text-2xl font-medium text-white hover:text-indigo-50"
+          class="text-2xl font-medium text-gray-25 hover:text-indigo-50"
           @click.native="toggle"
         >
           {{ lien.texte }}

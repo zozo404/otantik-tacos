@@ -7,7 +7,7 @@
       class="h-full filter brightness-tacos"
       sizes="xs:100vw"
     />
-    <Titles :id="'door'" class="scroll-mt-60 lg:scroll-mt-40 absolute top-44 text-orange-1000 font-shadows" subtitle="Fast food de Tacos/ Burgers/ Américains/ Salades" />
+    <Titles :id="'door'" class="scroll-mt-60 lg:scroll-mt-40 absolute top-44 text-orange-1000" subtitle="Fast food de Tacos/ Burgers/ Américains/ Salades" />
   </div>
 </template>
 <script>
