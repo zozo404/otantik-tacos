@@ -1,6 +1,6 @@
 <template>
   <div :id="id" class="bg-transparent flex flex-col items-center mt-7">
-    <div v-if="subtitle" class="flex w-3/4 md:w-1/3 justify-center items-center pb-8 bg-transparent rounded-full mb-4">
+    <div v-if="subtitle" class="flex w-3/4 justify-center items-center pb-8 bg-transparent rounded-full mb-4">
       <p class="lg:w-1/2 sm:text-4xl lg:text-4xl text-3xl text-center">
         {{ subtitle }}
       </p>

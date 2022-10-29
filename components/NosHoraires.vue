@@ -5,7 +5,7 @@
       <Titles :id="'horaires'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full" subtitle="Nos horaires" />
       <!-- Horaires -->
       <div>
-        <ul class="flex flex-col gap-2 mb-2">
+        <ul class="flex flex-col gap-2 mb-2 md:text-lg">
           <!-- début de la boucle avec l'élément que l'on souhaite répéter -->
           <li v-for="horaire in horaires" :key="horaire.jour">
             <span class="font-bold">{{ horaire.jour }} :</span>
@@ -17,11 +17,11 @@
             </span>
           </li>
           <p>
-            Numéro: <a href="tel:0468612529" class="font-bold">04 68 61 25 29 </a>
+            Numéro: <a href="tel:0468612529" rel="noopener noreferrer" class="font-bold">04 68 61 25 29 </a>
           </p>
           <!-- fin de la boucle -->
         </ul>
-        <i>
+        <i class="md:text-lg">
           NB: Les horaires peuvent varier selon les saisons
         </i>
       </div>
