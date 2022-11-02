@@ -1,0 +1,10 @@
+@layer base{
+    @font-face {
+        font-family: 'FuzzyBubbles';
+        src: url('/static/fonts/FuzzyBubbles-Regular.woff2') format('woff2');
+    }
+    @font-face {
+        font-family: 'ShadowsIntoLightTwo';
+        src: url('/static/fonts/ShadowsIntoLightTwo-Regular.woff2') format('woff2');
+    }
+}

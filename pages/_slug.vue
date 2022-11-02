@@ -28,7 +28,7 @@
         <br>
         <p>
           Vous pouvez accéder au github du projet <br>
-          <a :href="portfolio.link" target="_blank" rel="noopener" class="text-orange-400 text-lg">Ici</a>
+          <a :href="portfolio.link" target="_blank" rel="noopener noreferrer" class="text-orange-400 text-lg">Ici</a>
         </p>
       </div>
     </div>
