@@ -1,38 +1,30 @@
 <!-- This example requires Tailwind CSS v2.0+ -->
 <template>
-  <footer id="footer" class="bg-orange-1000 font-shadows">
-    <div class="max-w-7xl mx-auto pt-4 px-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center md:text-lg">
-      <!-- si bug visuel, alors modifier la height de l'image aux alentours de 40% (mobile only) -->
-      <!-- crédit image et autorisation de ebox.mu -->
-      <nuxt-img
-        provider="sanity"
-        :src="Tacos.imageId.asset._ref"
-        :alt="Tacos.imageId.alt"
-        class="h-auto filter brightness-tacos absolute z-0"
-        sizes="xs:100vw"
-      />
-      <div class="relative pt-4 flex flex-col sd:gap-9">
-        <a
-          v-for="item in navigation.tacos"
-          :key="item.name"
-          :href="item.href"
-          class="text-orange-1000 flex flex-col items-center sd:gap-3"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p>Vous pouvez également nous trouver ici</p>
-          <span class="sr-only">{{ item.name }}</span>
-          <i :class="item.icon" class="h-6 w-6 text-blue-700 bg-white rounded-full" />
-        </a>
-        <p class="text-center text-orange-1000">
-          3 Av. Emile Zola, 66270 Le Soler
-        </p>
-      </div>
-      <div class="xl:mt-52">
-        <p class="text-center text-base relative text-orange-1000 sd:mt-12 md:text-lg lg:mt-96 xl:pt-20">
+  <div>
+    <BordureTop />
+    <footer id="footer" class="font-shadows bg-gray-1000">
+      <div class="max-w-7xl mx-auto pt-4 px-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center md:text-lg">
+        <div class="relative pt-4 flex flex-col sd:gap-9">
+          <a
+            v-for="item in navigation.tacos"
+            :key="item.name"
+            :href="item.href"
+            class="text-orange-1000 flex flex-col items-center sd:gap-5"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>Vous pouvez également nous trouver ici</p>
+            <span class="sr-only">{{ item.name }}</span>
+            <i :class="item.icon" class="h-6 w-6 text-blue-700 bg-white rounded-full" />
+          </a>
+          <p class="text-center text-orange-1000">
+            3 Av. Emile Zola, 66270 Le Soler
+          </p>
+        </div>
+        <p class="text-center text-base text-orange-1000 md:text-lg pt-8 xl:pt-20">
           &copy; 2022 zozoy, Inc. All rights reserved.
         </p>
-        <div class="flex justify-center space-x-6 relative">
+        <div class="flex justify-center space-x-6">
           <a
             v-for="item in navigation.social"
             :key="item.name"
@@ -46,13 +38,11 @@
           </a>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </template>
 
 <script>
-import { mapGetters } from 'vuex'
-
 export default {
   name: 'FooterApp',
   data () {
@@ -78,12 +68,6 @@ export default {
           }
         ]
       }
-    }
-  },
-  computed: {
-    ...mapGetters(['getPages']),
-    Tacos () {
-      return this.getPages.find(el => el.name === 'Tacos')
     }
   }
 }
