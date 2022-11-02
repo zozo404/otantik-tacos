@@ -9,7 +9,6 @@
           :src="Carte.imageId.asset._ref"
           :alt="Carte.imageId.alt"
           class="h-full rounded-md"
-          sizes="xs:100vw"
         />
       </a>
       <i class="pt-2 text-lg">

@@ -14,7 +14,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Bienvenue sur mon site cv, il permet de montrer mes compétences ainsi que mes réalisations' },
+      { hid: 'description', name: 'description', content: "Bienvenue chez O'Tantik-Tacos, regardez notre carte et venez vous faire plaisirs avec nos déliceux tacos." },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
