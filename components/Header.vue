@@ -5,7 +5,7 @@
       aria-label="Top"
     >
       <!-- logo -->
-      <nuxt-link to="/" class="flex justify-center lg:col-span-1 h-full text-gray-25">
+      <nuxt-link to="/" class="flex justify-center lg:col-span-1 h-full text-white hover:text-gray-25 dura">
         <span class="sr-only">Logo</span>
         <!-- mettre img -->
         <nuxt-img
@@ -17,7 +17,7 @@
         />
       </nuxt-link>
       <div class="text-right pr-8 lg:hidden flex justify-end " @click="toggle">
-        <i class="fas fa-bars h-8 w-8" />
+        <i class="fas fa-bars h-8 w-8 text-white hover:text-gray-25 duration-100" />
       </div>
       <!-- navigation -->
       <div
@@ -27,7 +27,7 @@
           <a
             key="Index"
             :href="lien.lien"
-            class="text-base lg:text-xl 2xl:text-2xl font-medium text-gray-25 hover:text-indigo-50"
+            class="text-base lg:text-xl 2xl:text-2xl font-medium text-white hover:text-gray-25 duration-100"
             @click="toggle"
           >
             {{ lien.texte }}
@@ -52,8 +52,8 @@
           />
         </nuxt-link>
         <!-- hamburger icon -->
-        <div class="w-full h-full pr-8 lg:hidden flex justify-end " @click="toggle">
-          <i class="fas fa-bars h-8 w-8 z-50 place-self-center" />
+        <div class="w-full h-full pr-8 lg:hidden flex justify-end  " @click="toggle">
+          <i class="fas fa-bars h-8 w-8 z-50 place-self-center text-white hover:text-gray-25 duration-100" />
         </div>
       </div>
       <!-- liens -->
@@ -61,14 +61,13 @@
         <nuxt-link
           key="Index"
           :to="lien.lien"
-          class="text-2xl font-medium text-gray-25 hover:text-indigo-50"
+          class="text-2xl font-medium text-white hover:text-gray-25 duration-100"
           @click.native="toggle"
         >
           {{ lien.texte }}
         </nuxt-link>
       </div>
       <!--  -->
-      <!-- bouton réserver -->
     </nav>
   </header>
 </template>

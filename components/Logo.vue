@@ -7,7 +7,6 @@
       :src="Logo.imageId.asset._ref"
       :alt="Logo.imageId.alt"
       class="h-56"
-      sizes="xs:100vw"
     />
   </nuxt-link>
 </template>

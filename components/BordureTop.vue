@@ -4,7 +4,6 @@
     :src="Bordure.imageId.asset._ref"
     :alt="Bordure.imageId.alt"
     class="h-full relative top-px"
-    sizes="xs:100vw"
   />
 </template>
 
