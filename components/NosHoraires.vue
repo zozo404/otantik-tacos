@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col">
     <BordureTop />
-    <div class="bg-gray-1000 flex flex-col items-center pb-8">
+    <div class="bg-gray-1000 flex flex-col items-center pb-8 text-gray-25">
       <Titles :id="'horaires'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full" subtitle="Nos horaires" />
       <!-- Horaires -->
       <div>
