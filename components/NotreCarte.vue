@@ -3,7 +3,7 @@
     <BordureTop />
     <div class="bg-gray-1000 flex flex-col items-center pb-8">
       <Titles :id="'carte'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full" subtitle="Notre carte" />
-      <a href="/carte1.jpg" target="_blank" rel="noopener noreferrer" class="w-95">
+      <a href="/carte1.jpg" target="_blank" rel="noopener noreferrer" class="w-95 lg:w-3/5">
         <nuxt-img
           provider="sanity"
           :src="Carte.imageId.asset._ref"

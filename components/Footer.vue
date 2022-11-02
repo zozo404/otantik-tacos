@@ -3,6 +3,7 @@
   <footer id="footer" class="bg-orange-1000 font-shadows">
     <div class="max-w-7xl mx-auto pt-4 px-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center md:text-lg">
       <!-- si bug visuel, alors modifier la height de l'image aux alentours de 40% (mobile only) -->
+      <!-- crédit image et autorisation de ebox.mu -->
       <nuxt-img
         provider="sanity"
         :src="Tacos.imageId.asset._ref"
@@ -10,12 +11,12 @@
         class="h-auto filter brightness-tacos absolute z-0"
         sizes="xs:100vw"
       />
-      <div class="relative pt-4 flex flex-col gap-9">
+      <div class="relative pt-4 flex flex-col sd:gap-9">
         <a
           v-for="item in navigation.tacos"
           :key="item.name"
           :href="item.href"
-          class="text-orange-1000 flex flex-col items-center gap-3"
+          class="text-orange-1000 flex flex-col items-center sd:gap-3"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -27,21 +28,23 @@
           3 Av. Emile Zola, 66270 Le Soler
         </p>
       </div>
-      <p class="mt-72 text-center text-base relative text-orange-1000 md:text-lg">
-        &copy; 2022 zozoy, Inc. All rights reserved.
-      </p>
-      <div class="flex justify-center space-x-6 relative">
-        <a
-          v-for="item in navigation.social"
-          :key="item.name"
-          :href="item.href"
-          class="text-orange-1000"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span class="sr-only">{{ item.name }}</span>
-          <i :class="item.icon" class="h-6 w-6 text-orange-1000" />
-        </a>
+      <div class="xl:mt-52">
+        <p class="text-center text-base relative text-orange-1000 sd:mt-12 md:text-lg lg:mt-96 xl:pt-20">
+          &copy; 2022 zozoy, Inc. All rights reserved.
+        </p>
+        <div class="flex justify-center space-x-6 relative">
+          <a
+            v-for="item in navigation.social"
+            :key="item.name"
+            :href="item.href"
+            class="text-orange-1000"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span class="sr-only">{{ item.name }}</span>
+            <i :class="item.icon" class="h-6 w-6 text-orange-1000" />
+          </a>
+        </div>
       </div>
     </div>
   </footer>

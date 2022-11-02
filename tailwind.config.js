@@ -26,6 +26,9 @@ module.exports = {
       fontFamily: {
         fuzzy: "'Fuzzy Bubbles', cursive",
         shadows: "'Shadows Into Light Two', cursive"
+      },
+      screens: {
+        sd: '375px'
       }
     }
   },
