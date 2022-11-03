@@ -1,7 +1,7 @@
 <template>
   <div>
     <BordureTop />
-    <footer id="footer" class="font-shadows bg-gray-1000">
+    <footer id="footer" class="font-fuzzy bg-gray-1000">
       <div class="max-w-7xl mx-auto pt-4 px-4 overflow-hidden sm:px-6 lg:px-8 flex flex-col items-center md:text-lg">
         <div class="relative pt-4 flex flex-col sd:gap-9">
           <!-- insert the link of the facebook page with an icon  -->

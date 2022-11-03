@@ -1,5 +1,5 @@
 <template>
-  <div class="font-shadows">
+  <div class="font-fuzzy">
     <PresentationTacos class="pt-6" />
     <NotreCarte />
     <RetrouvezNous />
