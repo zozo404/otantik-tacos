@@ -1,7 +1,8 @@
 # otantik-tacos
 Welcome to my new project 👋
 
-<!-- Access: [zozoy.fr](https://zozoy.fr) -->
+Access: [otantik-tacos](https://otantik-tacos.netlify.app/)
+
 ## Installation
 
 ```bash
