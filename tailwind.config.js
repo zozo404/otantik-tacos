@@ -23,10 +23,6 @@ module.exports = {
       top: {
         97: '27rem'
       },
-      fontFamily: {
-        fuzzy: "'Fuzzy Bubbles', cursive",
-        shadows: "'Shadows Into Light Two', cursive"
-      },
       screens: {
         sd: '375px'
       }

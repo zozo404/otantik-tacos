@@ -32,7 +32,7 @@
 
 <script>
 export default {
-  name: 'NotreCarte',
+  name: 'NosHoraires',
   // ici on crée la donnée horaire qui nous permettra de faire une boucle
   data () {
     return {

@@ -1,5 +1,6 @@
 <template>
   <div class="flex flex-col">
+    <!-- img pour les fonds en diagonales -->
     <BordureTop />
     <div class="bg-gray-1000 flex flex-col items-center pb-8 text-gray-25">
       <Titles :id="'carte'" class="scroll-mt-60 lg:scroll-mt-40 text-orange-1000 w-full" subtitle="Notre carte" />
